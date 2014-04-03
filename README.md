@@ -8,3 +8,4 @@ Host docker
   IdentityFile  ~/.ssh/mykey.pem 
   StrictHostKeyChecking no 
   UserKnownHostsFile /dev/null 
+* I'm testing!

@@ -54,7 +54,7 @@ namespace :spec do
     RSpec::Core::RakeTask.new(host[:short_name].to_sym) do |t|
       t.pattern = 'spec/{' + host[:roles].join(',') + '}_test/*_spec.rb'
     end
-#    container.stop
+    container.stop
 
   end
 end
